@@ -24,7 +24,7 @@ public class HotelController {
 	@Autowired
 	IHotelService hotelService;
 	@Autowired
-	IAvisService avisService;
+	IAvisService avisServicee;
 	
 	@RequestMapping(value = "/saveHotel", method = RequestMethod.POST)
 	public ModelAndView saveHotel(@ModelAttribute("h") Hotel hotel, @RequestParam("file") MultipartFile file) {

@@ -13,7 +13,7 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.Transient;
 
-import org.apache.tomcat.util.codec.binary.Base64;
+//mport org.apache.tomcat.util.codec.binary.Base64;
 
 @Entity
 public class Hotel implements Serializable {
